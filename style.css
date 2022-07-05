@@ -17,6 +17,20 @@ body{
     font-weight: bold;
 }
 
+p {
+    font-size: 14px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black {
+    color:#000 !important;
+}
+
 /*******
 ABOUT
 ********/
@@ -25,6 +39,7 @@ ABOUT
     max-width:400px;
     text-align: center;
 }
+
 
 #about img {
     border-radius:50%;
@@ -65,4 +80,27 @@ ABOUT
 #about .icons a{
     color: #000
     
+}
+
+/********
+PROJECTS
+*********/
+
+#projects {
+    margin: 60px auto;
+    width:80%;
+}
+
+#projects h2 {
+    text-align:center;
+}
+
+#projects .card img {
+    widht:100%;
+
+}
+
+#projects .card-title {
+    font-weight: bold;
+
 }
